@@ -1,9 +1,16 @@
+# Cache folder at the root (DO NOT REMOVE trailing slash)
+.import/
+
+# Whitelist: Force Git to always track asset files and their configuration files
+!media/
+!media/**/*
+!media/**/*.import
+
 # Imported translations (automatically generated from CSV files)
 *.translation
 
-# custom
+# Custom exclusions
 .flatpak-builder/
-.import/
 [Aa]ndroid/
 [Ee]xport/*/
 [Ee]xport/_mac*

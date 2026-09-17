@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bench.svg-ba1c2b5ec1936cdf2afbdc3c5d87a406.stex"
+path="res://.import/lamppost.png-864416358a5368cd733a402511eb503e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/bench.svg"
-dest_files=[ "res://.import/bench.svg-ba1c2b5ec1936cdf2afbdc3c5d87a406.stex" ]
+source_file="res://media/image/lamppost.png"
+dest_files=[ "res://.import/lamppost.png-864416358a5368cd733a402511eb503e.stex" ]
 
 [params]
 

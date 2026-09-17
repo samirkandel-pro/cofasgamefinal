@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://media/image/details/lamppost.svg" type="Texture" id=1]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://media/image/box/round_rect400.png" type="Texture" id=5]
 [ext_resource path="res://src/shader/circle_fade.gdshader" type="Shader" id=6]
 [ext_resource path="res://src/detail/LightBase.gd" type="Script" id=7]
+[ext_resource path="res://media/image/lamppost.png" type="Texture" id=8]
 
 [sub_resource type="ShaderMaterial" id=5]
 shader = ExtResource( 6 )
@@ -30,6 +31,7 @@ node_path = NodePath("..")
 [node name="Sprites" type="Node2D" parent="."]
 
 [node name="Sprite" type="Sprite" parent="Sprites"]
+visible = false
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 1 )
 offset = Vector2( 0, -200 )
@@ -65,5 +67,10 @@ shape = SubResource( 1 )
 [node name="Hit" type="AudioStreamPlayer" parent="Spring"]
 stream = ExtResource( 4 )
 bus = "SFX"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -1, -108.297 )
+scale = Vector2( 0.12425, 0.103411 )
+texture = ExtResource( 8 )
 
 [connection signal="area_entered" from="Spring/Area2D" to="Spring" method="_on_Area2D_area_entered"]

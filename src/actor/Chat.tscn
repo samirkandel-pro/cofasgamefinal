@@ -16,7 +16,6 @@ modulate = Color( 1, 1, 1, 0 )
 z_index = 71
 z_as_relative = false
 script = ExtResource( 2 )
-dialog = "Every choice changes the city."
 is_editor = true
 
 [node name="Bubble" type="Node2D" parent="."]
@@ -27,7 +26,6 @@ modulate = Color( 0, 0, 0, 0.501961 )
 position = Vector2( 7, 10 )
 
 [node name="Triangle" type="Polygon2D" parent="Bubble/Shadow"]
-position = Vector2( 0, 37.5 )
 scale = Vector2( 1e-05, 1e-05 )
 polygon = PoolVector2Array( -21.5, 0, 21.5, 0, 0, 40 )
 
@@ -35,14 +33,13 @@ polygon = PoolVector2Array( -21.5, 0, 21.5, 0, 0, 40 )
 texture = ExtResource( 1 )
 texture_offset = Vector2( 0, 50 )
 texture_scale = Vector2( 0, 1 )
-polygon = PoolVector2Array( 59, 0, 58.0598, 8.34453, 55.2863, 16.2706, 50.8187, 23.3809, 44.8809, 29.3187, 37.7706, 33.7863, 29.8445, 36.5598, 21.5, 37.5, -21.5, 37.5, -29.8445, 36.5598, -37.7706, 33.7863, -44.8809, 29.3187, -50.8187, 23.3809, -55.2863, 16.2706, -58.0598, 8.34453, -59, -3.27835e-06, -58.0598, -8.34453, -55.2863, -16.2706, -50.8187, -23.3809, -44.8809, -29.3187, -37.7706, -33.7863, -29.8445, -36.5598, -21.5, -37.5, 21.5, -37.5, 29.8445, -36.5598, 37.7706, -33.7863, 44.8809, -29.3187, 50.8187, -23.3809, 55.2863, -16.2706, 58.0598, -8.34453 )
+polygon = PoolVector2Array( 0, 0, 0, 0, 0, 0, 0, 0 )
 script = ExtResource( 4 )
 is_baked = false
-size = Vector2( 59, 37.5 )
+size = Vector2( 0, 0 )
 radius = Plane( -2, -1, -1, -1 )
 
 [node name="Triangle" type="Polygon2D" parent="Bubble"]
-position = Vector2( 0, 37.5 )
 scale = Vector2( 1e-05, 1e-05 )
 polygon = PoolVector2Array( -21.5, 0, 21.5, 0, 0, 40 )
 
@@ -50,10 +47,10 @@ polygon = PoolVector2Array( -21.5, 0, 21.5, 0, 0, 40 )
 texture = ExtResource( 1 )
 texture_offset = Vector2( 0, 50 )
 texture_scale = Vector2( 0, 1 )
-polygon = PoolVector2Array( 59, 0, 58.0598, 8.34453, 55.2863, 16.2706, 50.8187, 23.3809, 44.8809, 29.3187, 37.7706, 33.7863, 29.8445, 36.5598, 21.5, 37.5, -21.5, 37.5, -29.8445, 36.5598, -37.7706, 33.7863, -44.8809, 29.3187, -50.8187, 23.3809, -55.2863, 16.2706, -58.0598, 8.34453, -59, -3.27835e-06, -58.0598, -8.34453, -55.2863, -16.2706, -50.8187, -23.3809, -44.8809, -29.3187, -37.7706, -33.7863, -29.8445, -36.5598, -21.5, -37.5, 21.5, -37.5, 29.8445, -36.5598, 37.7706, -33.7863, 44.8809, -29.3187, 50.8187, -23.3809, 55.2863, -16.2706, 58.0598, -8.34453 )
+polygon = PoolVector2Array( 0, 0, 0, 0, 0, 0, 0, 0 )
 script = ExtResource( 4 )
 is_baked = false
-size = Vector2( 59, 37.5 )
+size = Vector2( 0, 0 )
 radius = Plane( -2, -1, -1, -1 )
 
 [node name="Center" type="CenterContainer" parent="Bubble"]
@@ -63,21 +60,20 @@ use_top_left = true
 
 [node name="Back" type="Label" parent="Bubble/Center"]
 modulate = Color( 1, 1, 1, 0 )
-margin_left = -39.0
+margin_left = -327.0
 margin_top = -21.0
-margin_right = 39.0
+margin_right = 326.0
 margin_bottom = 20.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "Every choice changes the city."
 align = 1
 valign = 2
-percent_visible = 1.33333
 
 [node name="Label" type="Label" parent="Bubble/Center"]
-margin_left = -39.0
+margin_left = -327.0
 margin_top = -21.0
-margin_right = 39.0
+margin_right = 326.0
 margin_bottom = 20.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )

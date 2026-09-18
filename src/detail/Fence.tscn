@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/shader/repeat_x_axis.gdshader" type="Shader" id=1]
 [ext_resource path="res://media/image/details/fence_pattern.svg" type="Texture" id=2]
 [ext_resource path="res://src/detail/Fence.gd" type="Script" id=3]
+[ext_resource path="res://media/image/WhatsApp_Image_2026-09-18_at_11.03.01-removebg-preview.png" type="Texture" id=4]
 
 [sub_resource type="ShaderMaterial" id=2]
 shader = ExtResource( 1 )
@@ -15,6 +16,7 @@ script = ExtResource( 3 )
 length = 2
 
 [node name="Sprite" type="Sprite" parent="."]
+visible = false
 material = SubResource( 2 )
 scale = Vector2( 0.4, 0.4 )
 texture = ExtResource( 2 )
@@ -22,3 +24,8 @@ offset = Vector2( 0, -50 )
 region_enabled = true
 region_rect = Rect2( 0, 0, 200, 100 )
 region_filter_clip = true
+
+[node name="WhatsAppImage2026-09-18At110301-removebg-preview" type="Sprite" parent="."]
+position = Vector2( -1, -24 )
+scale = Vector2( 0.155804, 0.171491 )
+texture = ExtResource( 4 )

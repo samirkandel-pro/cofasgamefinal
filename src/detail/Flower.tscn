@@ -72,8 +72,8 @@ stream = ExtResource( 5 )
 bus = "SFX"
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 6, -28 )
-scale = Vector2( 0.314773, 0.328419 )
+position = Vector2( 10, -31 )
+scale = Vector2( 0.419602, 0.427846 )
 texture = ExtResource( 7 )
 
 [connection signal="area_entered" from="Area2D" to="Spring" method="_on_Area2D_area_entered"]

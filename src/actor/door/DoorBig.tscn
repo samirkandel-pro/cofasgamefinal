@@ -36,7 +36,6 @@ gem_count = 0
 is_fade = false
 
 [node name="Visible" type="VisibilityNotifier2D" parent="." index="0"]
-visible = false
 modulate = Color( 1, 0, 0, 1 )
 rect = Rect2( -100, -100, 200, 200 )
 script = ExtResource( 3 )
@@ -60,13 +59,17 @@ radius = Plane( 0, 0, 50, 50 )
 
 [node name="Control" type="Control" parent="Sprites" index="1"]
 margin_left = -100.0
-margin_top = -100.0
+margin_top = -97.0
 margin_right = 100.0
-margin_bottom = 100.0
+margin_bottom = 103.0
 rect_clip_content = true
 
-[node name="Label" type="Label" parent="Sprites/Control" index="0"]
-visible = false
+[node name="Sprite" type="Sprite" parent="Sprites/Control" index="0"]
+position = Vector2( 102, 101 )
+scale = Vector2( 0.0686114, 0.0866455 )
+texture = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="Sprites/Control" index="1"]
 margin_left = 25.0
 margin_top = 15.0
 margin_right = 175.0
@@ -75,8 +78,3 @@ custom_fonts/font = ExtResource( 2 )
 text = "0"
 align = 1
 valign = 1
-
-[node name="Sprite" type="Sprite" parent="." index="3"]
-position = Vector2( 5, -5.86912 )
-scale = Vector2( 0.0686114, 0.0866455 )
-texture = ExtResource( 6 )

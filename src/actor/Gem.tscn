@@ -4,7 +4,6 @@
 
 [node name="Gem" type="Polygon2D"]
 position = Vector2( 3.21865e-06, 3.33786e-06 )
-scale = Vector2( 0.03, 0.03 )
 color = Color( 1, 1, 0, 1 )
 texture = ExtResource( 1 )
 polygon = PoolVector2Array( -30, 0, 0, -30, 30, 0, 0, 30 )
@@ -15,5 +14,6 @@ color = Color( 1, 0.8, 0, 1 )
 polygon = PoolVector2Array( -20, 0, 0, -20, 20, 0, 0, 20 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 0.07, 0.07 )
+position = Vector2( 17, -1 )
+scale = Vector2( 0.0682031, 0.0654297 )
 texture = ExtResource( 1 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/white_square_400x.png-af243662f032a26370e52d8f4c36d39e.stex"
+path="res://.import/pngtree-vector-clock-icon-png-image_313133.jpg-c4fdc4df0dd6dfcbc41234fddd80691f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/white_square_400x.png"
-dest_files=[ "res://.import/white_square_400x.png-af243662f032a26370e52d8f4c36d39e.stex" ]
+source_file="res://src/actor/pngtree-vector-clock-icon-png-image_313133.jpg"
+dest_files=[ "res://.import/pngtree-vector-clock-icon-png-image_313133.jpg-c4fdc4df0dd6dfcbc41234fddd80691f.stex" ]
 
 [params]
 

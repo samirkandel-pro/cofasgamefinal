@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://src/class/shape/Petals.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Rectangle.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=4]
 [ext_resource path="res://media/audio/sfx/piano_high.wav" type="AudioStream" id=5]
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=6]
+[ext_resource path="res://media/image/OIP.png" type="Texture" id=7]
 
 [sub_resource type="CapsuleShape2D" id=1]
 height = 73.0
@@ -25,6 +26,7 @@ script = ExtResource( 4 )
 node_path = NodePath("../Images")
 
 [node name="Spring" type="Node2D" parent="."]
+visible = false
 script = ExtResource( 6 )
 sprites_path = NodePath("../Images")
 add_vel = 5.0
@@ -34,8 +36,10 @@ pitch_from = 0.8
 pitch_to = 1.2
 
 [node name="Images" type="Node2D" parent="."]
+visible = false
 
 [node name="Stem" type="Polygon2D" parent="Images"]
+visible = false
 modulate = Color( 0.137255, 1, 0, 1 )
 position = Vector2( 0, -25 )
 polygon = PoolVector2Array( 6.5, 25.01, 5.6305, 28.255, 3.255, 30.6305, 0.00999994, 31.5, -0.0100005, 31.5, -3.255, 30.6305, -5.6305, 28.255, -6.5, 25.01, -6.5, -31.5, 6.5, -31.5 )
@@ -45,6 +49,7 @@ radius = Plane( 6.49, -1, 0, 0 )
 points = 4
 
 [node name="Petals" type="Polygon2D" parent="Images"]
+visible = false
 modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 0, -50 )
 rotation = 0.785398
@@ -65,5 +70,10 @@ shape = SubResource( 1 )
 [node name="Hit" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource( 5 )
 bus = "SFX"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 6, -28 )
+scale = Vector2( 0.314773, 0.328419 )
+texture = ExtResource( 7 )
 
 [connection signal="area_entered" from="Area2D" to="Spring" method="_on_Area2D_area_entered"]

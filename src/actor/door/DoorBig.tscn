@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://src/actor/door/DoorBase.tscn" type="PackedScene" id=1]
 [ext_resource path="res://media/font/profile/DoorLabel.tres" type="DynamicFont" id=2]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=3]
 [ext_resource path="res://src/actor/door/DoorBig.gd" type="Script" id=4]
 [ext_resource path="res://src/class/shape/Rectangle.gd" type="Script" id=5]
+[ext_resource path="res://media/image/room-with-three-doors.png" type="Texture" id=6]
 [ext_resource path="res://src/shader/door_big.gdshader" type="Shader" id=7]
 [ext_resource path="res://media/image/box/round_rect100.png" type="Texture" id=8]
 
@@ -48,6 +49,7 @@ image_pos = Vector2( 0, -150 )
 [node name="Sprites" type="Node2D" parent="." index="2"]
 
 [node name="Door" type="Polygon2D" parent="Sprites" index="0"]
+visible = false
 material = SubResource( 2 )
 position = Vector2( 1, 0 )
 texture = ExtResource( 8 )
@@ -73,3 +75,8 @@ custom_fonts/font = ExtResource( 2 )
 text = "0"
 align = 1
 valign = 1
+
+[node name="Sprite" type="Sprite" parent="." index="3"]
+position = Vector2( 5, -5.86912 )
+scale = Vector2( 0.0686114, 0.0866455 )
+texture = ExtResource( 6 )

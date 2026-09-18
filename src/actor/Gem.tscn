@@ -3,16 +3,17 @@
 [ext_resource path="res://media/image/Image.png" type="Texture" id=1]
 
 [node name="Gem" type="Polygon2D"]
-position = Vector2( -4.76837e-07, 0 )
-scale = Vector2( 0.233333, 0.233333 )
+position = Vector2( 3.21865e-06, 3.33786e-06 )
 color = Color( 1, 1, 0, 1 )
+texture = ExtResource( 1 )
 polygon = PoolVector2Array( -30, 0, 0, -30, 30, 0, 0, 30 )
 
 [node name="Fill" type="Polygon2D" parent="."]
+visible = false
 color = Color( 1, 0.8, 0, 1 )
 polygon = PoolVector2Array( -20, 0, 0, -20, 20, 0, 0, 20 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 2.14286, -2.17803 )
-scale = Vector2( 0.0795201, 0.0782165 )
+position = Vector2( 17, -1 )
+scale = Vector2( 0.0682031, 0.0654297 )
 texture = ExtResource( 1 )

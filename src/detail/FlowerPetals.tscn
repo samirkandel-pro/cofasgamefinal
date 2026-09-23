@@ -47,7 +47,6 @@ visible = false
 modulate = Color( 1, 0, 0, 1 )
 
 [node name="Petals" type="Polygon2D" parent="Images"]
-visible = false
 rotation = 0.785397
 texture = ExtResource( 6 )
 polygon = PoolVector2Array( 8.5, -8.5, 17, -8.5, 21.9962, -6.87664, 25.084, -2.62664, 25.084, 2.62664, 21.9962, 6.87664, 17, 8.5, 8.5, 8.5, 8.5, 17, 6.87664, 21.9962, 2.62664, 25.084, -2.62665, 25.084, -6.87665, 21.9962, -8.5, 17, -8.5, 8.5, -17, 8.5, -21.9962, 6.87664, -25.084, 2.62664, -25.084, -2.62665, -21.9962, -6.87665, -17, -8.5, -8.5, -8.5, -8.5, -17, -6.87664, -21.9962, -2.62665, -25.084, 2.62665, -25.084, 6.87664, -21.9962, 8.5, -17 )
@@ -65,8 +64,8 @@ bus = "SFX"
 scale = Vector2( 0.108, 0.12 )
 
 [node name="Flower" type="Sprite" parent="."]
-position = Vector2( 0, 4.76837e-07 )
-scale = Vector2( 0.210451, 0.203132 )
+position = Vector2( -0.0756327, -0.0784563 )
+scale = Vector2( 0.128317, 0.123854 )
 texture = ExtResource( 7 )
 
 [connection signal="area_entered" from="." to="Spring" method="_on_Area2D_area_entered"]

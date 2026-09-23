@@ -6,7 +6,7 @@
 
 [node name="FlowerPetals" parent="." instance=ExtResource( 1 )]
 position = Vector2( 0, -25 )
-scale = Vector2( 0.75, 0.75 )
+scale = Vector2( 0.326, 0.326 )
 z_index = 0
 z_as_relative = true
 palette = 0

@@ -17,4 +17,11 @@ node_path = NodePath("")
 [node name="Images" parent="FlowerPetals" index="3"]
 modulate = Color( 1, 1, 1, 1 )
 
+[node name="Flower" parent="FlowerPetals/Sprite" index="0"]
+scale = Vector2( 0.076, 0.087 )
+
+[node name="Flower" parent="FlowerPetals" index="6"]
+position = Vector2( 0, 0 )
+scale = Vector2( 0.0408207, 0.039401 )
+
 [editable path="FlowerPetals"]

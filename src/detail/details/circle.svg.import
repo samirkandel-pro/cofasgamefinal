@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/snowman.svg-9d57f10f001dc6e0ba91c24cfeb769af.stex"
+path="res://.import/circle.svg-13bec07be0d78bacc826b155222e4082.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/snowman.svg"
-dest_files=[ "res://.import/snowman.svg-9d57f10f001dc6e0ba91c24cfeb769af.stex" ]
+source_file="res://src/detail/details/circle.svg"
+dest_files=[ "res://.import/circle.svg-13bec07be0d78bacc826b155222e4082.stex" ]
 
 [params]
 
@@ -32,4 +32,4 @@ process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=true
-svg/scale=1.0
+svg/scale=5.0

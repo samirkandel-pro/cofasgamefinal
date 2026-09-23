@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arcade_back.png-6f8fcf0094df358dc9bb67b6c41e3b01.stex"
+path="res://.import/arcade_front.png-fa8db0026e7f082ae57c392f275aac31.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/arcade_back.png"
-dest_files=[ "res://.import/arcade_back.png-6f8fcf0094df358dc9bb67b6c41e3b01.stex" ]
+source_file="res://src/detail/details/arcade_front.png"
+dest_files=[ "res://.import/arcade_front.png-fa8db0026e7f082ae57c392f275aac31.stex" ]
 
 [params]
 

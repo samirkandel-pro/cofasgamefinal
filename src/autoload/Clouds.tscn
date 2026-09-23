@@ -5,13 +5,14 @@
 [ext_resource path="res://src/class/shape/TreeTop.gd" type="Script" id=3]
 [ext_resource path="res://src/shader/moon.gdshader" type="Shader" id=4]
 [ext_resource path="res://media/image/box/round_rect100.png" type="Texture" id=5]
-[ext_resource path="res://media/image/details/raindrop2.svg" type="Texture" id=6]
-[ext_resource path="res://media/image/details/circle100.png" type="Texture" id=7]
-[ext_resource path="res://media/image/details/star.svg" type="Texture" id=8]
+[ext_resource path="res://src/detail/details/raindrop2.svg" type="Texture" id=6]
+[ext_resource path="res://src/detail/details/circle100.png" type="Texture" id=7]
+[ext_resource path="res://src/detail/details/star.svg" type="Texture" id=8]
 [ext_resource path="res://media/audio/sfx/mixkit-light-rain-looping-1249.wav" type="AudioStream" id=9]
-[ext_resource path="res://media/image/details/circle.svg" type="Texture" id=10]
+[ext_resource path="res://src/detail/details/circle.svg" type="Texture" id=10]
 [ext_resource path="res://src/shader/sky.gdshader" type="Shader" id=11]
 [ext_resource path="res://src/class/shape/Poly2Mesh.gd" type="Script" id=14]
+
 
 [sub_resource type="Gradient" id=12]
 offsets = PoolRealArray( 0, 0.05, 0.95, 1 )

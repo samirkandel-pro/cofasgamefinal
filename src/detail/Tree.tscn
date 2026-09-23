@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://media/image/details/TreeBark.svg" type="Texture" id=1]
+[ext_resource path="res://src/detail/details/TreeBark.svg" type="Texture" id=1]
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=2]
 [ext_resource path="res://src/detail/PaletteSwap.gd" type="Script" id=3]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=4]
@@ -65,13 +65,11 @@ z_as_relative = true
 script = null
 
 [node name="Spring" parent="Sprites/TreeTop" index="1"]
-visible = false
 add_vel = 0.025
 pitch_from = 0.4
 pitch_to = 0.7
 
 [node name="Sprite" parent="Sprites/TreeTop" index="2"]
-visible = false
 modulate = Color( 0.364706, 1, 0, 1 )
 
 [node name="CollisionShape2D" parent="Sprites/TreeTop/Area2D" index="0"]

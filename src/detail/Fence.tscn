@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/shader/repeat_x_axis.gdshader" type="Shader" id=1]
-[ext_resource path="res://media/image/details/fence_pattern.svg" type="Texture" id=2]
+[ext_resource path="res://src/detail/details/fence_pattern.svg" type="Texture" id=2]
 [ext_resource path="res://src/detail/Fence.gd" type="Script" id=3]
 [ext_resource path="res://media/image/WhatsApp_Image_2026-09-18_at_11.03.01-removebg-preview.png" type="Texture" id=4]
 

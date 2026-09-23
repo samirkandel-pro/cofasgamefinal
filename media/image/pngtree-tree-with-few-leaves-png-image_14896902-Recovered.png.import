@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pine_tree.png-e5647de305f24aceece208efee30a940.stex"
+path="res://.import/pngtree-tree-with-few-leaves-png-image_14896902-Recovered.png-9d5ad0bc419357291c1c473fffa6ae88.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/pine_tree.png"
-dest_files=[ "res://.import/pine_tree.png-e5647de305f24aceece208efee30a940.stex" ]
+source_file="res://media/image/pngtree-tree-with-few-leaves-png-image_14896902-Recovered.png"
+dest_files=[ "res://.import/pngtree-tree-with-few-leaves-png-image_14896902-Recovered.png-9d5ad0bc419357291c1c473fffa6ae88.stex" ]
 
 [params]
 
@@ -21,8 +21,8 @@ compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=true
+flags/mipmaps=false
+flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false

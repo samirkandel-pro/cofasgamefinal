@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arcade_front.png-46eccf5fe24155bf74b6cd6e35bab313.stex"
+path="res://.import/fence_pattern.svg-68264e126ef0f837fb9ae1b9ffd918dc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/arcade_front.png"
-dest_files=[ "res://.import/arcade_front.png-46eccf5fe24155bf74b6cd6e35bab313.stex" ]
+source_file="res://src/detail/details/fence_pattern.svg"
+dest_files=[ "res://.import/fence_pattern.svg-68264e126ef0f837fb9ae1b9ffd918dc.stex" ]
 
 [params]
 
@@ -32,4 +32,4 @@ process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=true
-svg/scale=1.0
+svg/scale=0.5

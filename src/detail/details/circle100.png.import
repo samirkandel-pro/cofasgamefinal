@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/raindrop.svg-57214b1845cff404066213ac96ff960b.stex"
+path="res://.import/circle100.png-a14f522f5ca7bd6132b25e1393bd56e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/raindrop.svg"
-dest_files=[ "res://.import/raindrop.svg-57214b1845cff404066213ac96ff960b.stex" ]
+source_file="res://src/detail/details/circle100.png"
+dest_files=[ "res://.import/circle100.png-a14f522f5ca7bd6132b25e1393bd56e8.stex" ]
 
 [params]
 

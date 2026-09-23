@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/saguaro.svg-adf69c3da322a84947b439019b0104e6.stex"
+path="res://.import/raindrop.svg-fbaa06dfc6f06a25a91811afd4e94645.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/saguaro.svg"
-dest_files=[ "res://.import/saguaro.svg-adf69c3da322a84947b439019b0104e6.stex" ]
+source_file="res://src/detail/details/raindrop.svg"
+dest_files=[ "res://.import/raindrop.svg-fbaa06dfc6f06a25a91811afd4e94645.stex" ]
 
 [params]
 
@@ -21,7 +21,7 @@ compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
-flags/mipmaps=true
+flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true

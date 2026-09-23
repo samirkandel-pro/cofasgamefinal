@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://media/image/details/saguaro.svg" type="Texture" id=1]
+[ext_resource path="res://src/detail/details/saguaro.svg" type="Texture" id=1]
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=2]
 [ext_resource path="res://media/audio/sfx/btn0.wav" type="AudioStream" id=3]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=4]
+[ext_resource path="res://media/image/pngtree-tree-with-few-leaves-png-image_14896902-Recovered.png" type="Texture" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 50.0
@@ -35,6 +36,7 @@ node_path = NodePath("..")
 position = Vector2( 0, -7.62939e-06 )
 
 [node name="Sprite" type="Sprite" parent="Sprites"]
+visible = false
 position = Vector2( 0, -350 )
 texture = ExtResource( 1 )
 
@@ -52,5 +54,10 @@ shape = SubResource( 1 )
 [node name="Hit" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource( 3 )
 bus = "SFX"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 7.5, -360 )
+scale = Vector2( 0.471457, 0.399308 )
+texture = ExtResource( 5 )
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

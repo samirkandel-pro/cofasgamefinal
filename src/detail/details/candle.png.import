@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/circle100.png-d0c0fe5d0bc662944cbb980cdd3d9b00.stex"
+path="res://.import/candle.png-89418bfa971f13ff1564a486defc0ea9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/details/circle100.png"
-dest_files=[ "res://.import/circle100.png-d0c0fe5d0bc662944cbb980cdd3d9b00.stex" ]
+source_file="res://src/detail/details/candle.png"
+dest_files=[ "res://.import/candle.png-89418bfa971f13ff1564a486defc0ea9.stex" ]
 
 [params]
 

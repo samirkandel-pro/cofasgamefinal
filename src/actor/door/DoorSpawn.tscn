@@ -7,5 +7,4 @@ scene_path = "spawn"
 
 [node name="Arrow" parent="." index="0"]
 modulate = Color( 0, 1, 0, 1 )
-z_index = 0
 image_pos = Vector2( 0, 0 )

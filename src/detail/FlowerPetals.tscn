@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://src/detail/PaletteSwap.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Petals.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=4]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=5]
 [ext_resource path="res://media/image/flower.png" type="Texture" id=6]
+[ext_resource path="res://media/image/flower .png" type="Texture" id=7]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 35.0
@@ -32,6 +33,7 @@ script = ExtResource( 5 )
 node_path = NodePath("../Images")
 
 [node name="Spring" type="Node2D" parent="."]
+visible = false
 script = ExtResource( 4 )
 sprites_path = NodePath("../Images")
 add_vel = 7.0
@@ -60,8 +62,11 @@ bus = "SFX"
 [node name="Sprite" type="Sprite" parent="."]
 
 [node name="Flower" type="Sprite" parent="Sprite"]
-position = Vector2( 5.96046e-08, 0 )
 scale = Vector2( 0.108, 0.12 )
-texture = ExtResource( 6 )
+
+[node name="Flower" type="Sprite" parent="."]
+position = Vector2( 0, 4.76837e-07 )
+scale = Vector2( 0.210451, 0.203132 )
+texture = ExtResource( 7 )
 
 [connection signal="area_entered" from="." to="Spring" method="_on_Area2D_area_entered"]

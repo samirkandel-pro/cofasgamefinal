@@ -7,7 +7,6 @@ A story-driven 2D puzzle platformer built in Godot where every choice alters the
 CITY//SHIFT is a compact urban puzzle adventure focused on movement, environmental problem-solving, and community impact. Players navigate modular city districts, solve route-based challenges, and make decisions that affect the lives of the people around them. The project combines platforming, puzzle logic, dialogue, and atmospheric presentation into one narrative-driven experience.
 
 The game includes systems for:
-
 - player movement and jumping
 - puzzle chamber progression
 - NPC dialogue and civic storytelling

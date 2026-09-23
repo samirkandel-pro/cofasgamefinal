@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/detail/PaletteSwap.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Petals.gd" type="Script" id=2]
 [ext_resource path="res://media/audio/sfx/guitar_pluck.wav" type="AudioStream" id=3]
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=4]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=5]
+[ext_resource path="res://media/image/flower.png" type="Texture" id=6]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 35.0
@@ -40,6 +41,7 @@ pitch_from = 0.85
 pitch_to = 1.15
 
 [node name="Images" type="Node2D" parent="." groups=["mirror"]]
+visible = false
 modulate = Color( 1, 0, 0, 1 )
 
 [node name="Petals" type="Polygon2D" parent="Images"]
@@ -52,5 +54,12 @@ script = ExtResource( 2 )
 [node name="Hit" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource( 3 )
 bus = "SFX"
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="Flower" type="Sprite" parent="Sprite"]
+position = Vector2( 5.96046e-08, 0 )
+scale = Vector2( 0.182, 0.175097 )
+texture = ExtResource( 6 )
 
 [connection signal="area_entered" from="." to="Spring" method="_on_Area2D_area_entered"]

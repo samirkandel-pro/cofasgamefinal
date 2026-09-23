@@ -23,6 +23,6 @@ texture = ExtResource( 2 )
 offset = Vector2( -252, 152 )
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( -11, 15 )
-scale = Vector2( 0.107, 0.107 )
+position = Vector2( -3, 17 )
+scale = Vector2( 0.0839, 0.0839 )
 texture = ExtResource( 3 )

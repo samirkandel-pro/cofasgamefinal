@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=2]
+[gd_scene load_steps=41 format=2]
 
 [ext_resource path="res://media/font/mini-wakuwaku.otf" type="DynamicFontData" id=1]
 [ext_resource path="res://media/font/profile/PauseItem.tres" type="DynamicFont" id=2]
@@ -28,6 +28,7 @@
 [ext_resource path="res://src/theme/title_text.tres" type="Theme" id=26]
 [ext_resource path="res://media/image/UI/heart.svg" type="Texture" id=27]
 [ext_resource path="res://src/shader/inset_shadow.gdshader" type="Shader" id=28]
+[ext_resource path="res://media/image/ChatGPT Image Sep 24, 2026, 11_13_42 AM.png" type="Texture" id=29]
 
 [sub_resource type="ShaderMaterial" id=22]
 shader = ExtResource( 25 )
@@ -637,13 +638,13 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
-margin_left = 57.0
+margin_left = 159.0
 margin_top = 336.0
-margin_right = 454.0
+margin_right = 353.0
 margin_bottom = 379.0
 size_flags_horizontal = 4
 custom_fonts/font = SubResource( 7 )
-text = "SOURYA POUDEL"
+text = "Ankuram"
 align = 1
 valign = 1
 __meta__ = {
@@ -910,18 +911,15 @@ scale = Vector2( 0.9, 0.9 )
 texture = ExtResource( 19 )
 
 [node name="Label" type="Label" parent="Map"]
-margin_left = 1500.0
-margin_top = 500.0
-margin_right = 2100.0
-margin_bottom = 800.0
+margin_left = 1533.0
+margin_top = 507.0
+margin_right = 2075.0
+margin_bottom = 739.0
 custom_colors/font_color = Color( 0.25098, 0.25098, 0.25098, 1 )
 custom_fonts/font = SubResource( 4 )
 text = "CITY//SHIFT"
 align = 1
 valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Demo" type="Label" parent="Map"]
 margin_left = 1500.0
@@ -942,16 +940,32 @@ rotation = -0.174533
 scale = Vector2( -1, 1 )
 palette = 3
 
+[node name="Sprite3" type="Sprite" parent="Map/Details/Tree"]
+position = Vector2( -1.66699, -90.0791 )
+scale = Vector2( 0.154554, 0.154554 )
+texture = ExtResource( 29 )
+
 [node name="Tree2" parent="Map/Details" instance=ExtResource( 8 )]
 position = Vector2( 1850, 800 )
 rotation = 2.96706
 scale = Vector2( -1, 1 )
 palette = 5
 
+[node name="Sprite4" type="Sprite" parent="Map/Details/Tree2"]
+position = Vector2( -1.37695, -94.1924 )
+scale = Vector2( 0.154554, 0.154554 )
+texture = ExtResource( 29 )
+
 [node name="Tree3" parent="Map/Details" instance=ExtResource( 8 )]
 position = Vector2( 1550, 800 )
 rotation = -2.96706
 palette = 2
+
+[node name="Sprite5" type="Sprite" parent="Map/Details/Tree3"]
+position = Vector2( 3.22559, -103.304 )
+rotation = -3.05956
+scale = Vector2( 0.154554, -0.154554 )
+texture = ExtResource( 29 )
 
 [node name="Lamppost" parent="Map/Details" instance=ExtResource( 12 )]
 position = Vector2( 1900, 500 )

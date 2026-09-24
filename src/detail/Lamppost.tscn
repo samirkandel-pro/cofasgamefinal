@@ -7,7 +7,7 @@
 [ext_resource path="res://media/image/box/round_rect400.png" type="Texture" id=5]
 [ext_resource path="res://src/shader/circle_fade.gdshader" type="Shader" id=6]
 [ext_resource path="res://src/detail/LightBase.gd" type="Script" id=7]
-[ext_resource path="res://media/image/lamppost.png" type="Texture" id=8]
+[ext_resource path="res://media/image/WhatsApp Image 2026-09-24 at 1.13.55 PM.png" type="Texture" id=8]
 
 [sub_resource type="ShaderMaterial" id=5]
 shader = ExtResource( 6 )
@@ -69,8 +69,8 @@ stream = ExtResource( 4 )
 bus = "SFX"
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -1, -108.297 )
-scale = Vector2( 0.12425, 0.103411 )
+position = Vector2( 1, -105 )
+scale = Vector2( 0.287185, 0.250005 )
 texture = ExtResource( 8 )
 
 [connection signal="area_entered" from="Spring/Area2D" to="Spring" method="_on_Area2D_area_entered"]

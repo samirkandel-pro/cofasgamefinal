@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile3_1.png-229af686836e433e808b6b5914b3f1a1.stex"
+path="res://.import/ChatGPT Image Sep 24, 2026, 11_13_42 AM.png-bc88d6d46ce69d162c189e2d5f463409.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/tiles/tile3_1.png"
-dest_files=[ "res://.import/tile3_1.png-229af686836e433e808b6b5914b3f1a1.stex" ]
+source_file="res://media/image/ChatGPT Image Sep 24, 2026, 11_13_42 AM.png"
+dest_files=[ "res://.import/ChatGPT Image Sep 24, 2026, 11_13_42 AM.png-bc88d6d46ce69d162c189e2d5f463409.stex" ]
 
 [params]
 

@@ -12,7 +12,6 @@
 [ext_resource path="res://media/audio/sfx/key.wav" type="AudioStream" id=10]
 [ext_resource path="res://media/audio/sfx/oneup1.wav" type="AudioStream" id=11]
 
-
 [node name="ArcadeCab" instance=ExtResource( 1 )]
 scene_path = "res://src/arcade/Arcade.tscn"
 

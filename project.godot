@@ -153,7 +153,7 @@ _global_script_class_icons={
 [application]
 
 config/name="CITY//SHIFT"
-config/description="CITY//SHIFT - Every choice changes the city. Created by Sourya Poudel."
+config/description="CLEAN//SHIFT - Every steps clean the city. Created by Ankuram"
 run/main_scene="res://src/menu/Splash.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="ROTA-Harmony"

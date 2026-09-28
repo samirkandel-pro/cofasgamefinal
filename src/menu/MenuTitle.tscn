@@ -911,13 +911,14 @@ scale = Vector2( 0.9, 0.9 )
 texture = ExtResource( 19 )
 
 [node name="Label" type="Label" parent="Map"]
-margin_left = 1533.0
-margin_top = 507.0
-margin_right = 2075.0
-margin_bottom = 739.0
+margin_left = 1517.0
+margin_top = 513.0
+margin_right = 2162.0
+margin_bottom = 746.0
+rect_scale = Vector2( 0.9, 0.9 )
 custom_colors/font_color = Color( 0.25098, 0.25098, 0.25098, 1 )
 custom_fonts/font = SubResource( 4 )
-text = "CITY//SHIFT"
+text = "CLEAN//SHIFT"
 align = 1
 valign = 1
 
@@ -928,7 +929,7 @@ margin_right = 2100.0
 margin_bottom = 790.0
 custom_colors/font_color = Color( 0.25098, 0.25098, 0.25098, 1 )
 custom_fonts/font = SubResource( 26 )
-text = "EVERY CHOICE CHANGES THE CITY"
+text = "EVERY STEPS CLEAN THE CITY"
 align = 1
 valign = 1
 

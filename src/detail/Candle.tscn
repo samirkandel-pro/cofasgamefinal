@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://src/detail/Spring.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Rectangle.gd" type="Script" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://src/detail/LightBase.gd" type="Script" id=7]
 [ext_resource path="res://src/detail/details/flame.png" type="Texture" id=8]
 [ext_resource path="res://src/detail/Visible.gd" type="Script" id=9]
+[ext_resource path="res://media/image/nhygyhgiu.png" type="Texture" id=10]
 
 [sub_resource type="ShaderMaterial" id=3]
 shader = ExtResource( 6 )
@@ -37,21 +38,25 @@ node_path = NodePath("..")
 [node name="Sprites" type="Node2D" parent="."]
 
 [node name="Sprite" type="Sprite" parent="Sprites"]
+visible = false
 scale = Vector2( 0.25, 0.25 )
 texture = ExtResource( 3 )
 offset = Vector2( 0, -200 )
 
 [node name="Scale" type="Node2D" parent="Sprites"]
+visible = false
 position = Vector2( 0, -66.5 )
 script = ExtResource( 7 )
 is_night = true
 
 [node name="Flame" type="Sprite" parent="Sprites/Scale"]
+visible = false
 position = Vector2( 0, -9 )
 scale = Vector2( 0.25, 0.25 )
 texture = ExtResource( 8 )
 
 [node name="Light" type="Sprite" parent="Sprites/Scale" groups=["light"]]
+visible = false
 modulate = Color( 1, 1, 0.439216, 0.14902 )
 material = SubResource( 3 )
 position = Vector2( 0, 0.5 )
@@ -61,6 +66,7 @@ z_as_relative = false
 texture = ExtResource( 5 )
 
 [node name="Wick" type="Polygon2D" parent="Sprites"]
+visible = false
 position = Vector2( 0, -65 )
 color = Color( 0, 0, 0, 1 )
 polygon = PoolVector2Array( 3, 3.6, 2.15061, 5.65061, 0.0999998, 6.5, -0.1, 6.5, -2.15061, 5.65061, -3, 3.6, -3, -3.6, -2.15061, -5.65061, -0.0999999, -6.5, 0.0999999, -6.5, 2.15061, -5.65061, 3, -3.6 )
@@ -76,6 +82,7 @@ collision_layer = 16
 collision_mask = 38
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visible = false
 shape = SubResource( 1 )
 
 [node name="Audio" type="Node2D" parent="."]
@@ -83,5 +90,10 @@ shape = SubResource( 1 )
 [node name="Hit" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource( 4 )
 bus = "SFX"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -2.38419e-07, -35 )
+scale = Vector2( 0.128571, 0.154286 )
+texture = ExtResource( 10 )
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

@@ -27,7 +27,6 @@ script = ExtResource( 4 )
 node_path = NodePath("../Images")
 
 [node name="Spring" type="Node2D" parent="."]
-visible = false
 script = ExtResource( 6 )
 sprites_path = NodePath("../Images")
 add_vel = 5.0

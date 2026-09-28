@@ -24,6 +24,7 @@ script = ExtResource( 4 )
 node_path = NodePath("..")
 
 [node name="Sprites" type="Node2D" parent="."]
+visible = false
 
 [node name="Snowman" type="Sprite" parent="Sprites"]
 position = Vector2( 0, -325 )

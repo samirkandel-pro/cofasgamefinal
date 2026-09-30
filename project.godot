@@ -152,8 +152,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="CITY//SHIFT"
-config/description="CLEAN//SHIFT - Every steps clean the city. Created by Ankuram"
+config/name="CLEAN_SHIFT"
+config/description="CLEAN_SHIFT - Every steps clean the city. Created by Ankuram"
 run/main_scene="res://src/menu/Splash.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="ROTA-Harmony"

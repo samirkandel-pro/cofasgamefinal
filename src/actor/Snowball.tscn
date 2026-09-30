@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/class/shape/Circle.gd" type="Script" id=1]
 [ext_resource path="res://src/actor/Snowball.gd" type="Script" id=2]
 [ext_resource path="res://media/audio/sfx/piano_high.wav" type="AudioStream" id=3]
 [ext_resource path="res://media/audio/sfx/Randomize105.wav" type="AudioStream" id=4]
+[ext_resource path="res://media/image/Thr.png" type="Texture" id=5]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -19,7 +20,14 @@ throw_vel = Vector2( 500, -200 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -4.43371e-17, 1 )
+rotation = 3.14159
+scale = Vector2( 0.042, 0.042 )
+texture = ExtResource( 5 )
+
 [node name="Polygon2D" type="Polygon2D" parent="."]
+visible = false
 polygon = PoolVector2Array( 10, 0, 8.66025, 5, 5, 8.66025, -4.37114e-07, 10, -5, 8.66025, -8.66025, 5, -10, -8.74228e-07, -8.66025, -5, -5, -8.66025, 1.19249e-07, -10, 5, -8.66025, 8.66025, -5 )
 script = ExtResource( 1 )
 is_baked = false

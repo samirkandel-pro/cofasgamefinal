@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/shine_get.wav-a982d252d21115deb42b7a14f34bf4d9.sample"
+path="res://.import/fallout3.wav-717cc99b265ececece4823bcbabc76c9.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/shine_get.wav"
-dest_files=[ "res://.import/shine_get.wav-a982d252d21115deb42b7a14f34bf4d9.sample" ]
+source_file="res://media/audio/sfx/fallout3.wav"
+dest_files=[ "res://.import/fallout3.wav-717cc99b265ececece4823bcbabc76c9.sample" ]
 
 [params]
 

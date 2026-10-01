@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/shine_sparkle.wav-14e44b5dedc57f9d46cfd717e9fe80c7.sample"
+path="res://.import/hit10.wav-53465991b2407b587922ceb88fc4f8ad.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/shine_sparkle.wav"
-dest_files=[ "res://.import/shine_sparkle.wav-14e44b5dedc57f9d46cfd717e9fe80c7.sample" ]
+source_file="res://media/audio/sfx/hit10.wav"
+dest_files=[ "res://.import/hit10.wav-53465991b2407b587922ceb88fc4f8ad.sample" ]
 
 [params]
 

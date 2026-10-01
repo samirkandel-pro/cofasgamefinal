@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/slap2.wav-a703194dceb735fb22e712354873aa5f.sample"
+path="res://.import/hit0.wav-7e49fc62dec62173fc430be7ac5dc708.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/slap2.wav"
-dest_files=[ "res://.import/slap2.wav-a703194dceb735fb22e712354873aa5f.sample" ]
+source_file="res://media/audio/sfx/hit0.wav"
+dest_files=[ "res://.import/hit0.wav-7e49fc62dec62173fc430be7ac5dc708.sample" ]
 
 [params]
 

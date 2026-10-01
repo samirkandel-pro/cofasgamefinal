@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/slap0.wav-ae3a7a61743dc26b174ba037a3931ebc.sample"
+path="res://.import/guitar_pluck.wav-776ac609dc92063db46c95eab9764199.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/slap0.wav"
-dest_files=[ "res://.import/slap0.wav-ae3a7a61743dc26b174ba037a3931ebc.sample" ]
+source_file="res://media/audio/sfx/guitar_pluck.wav"
+dest_files=[ "res://.import/guitar_pluck.wav-776ac609dc92063db46c95eab9764199.sample" ]
 
 [params]
 

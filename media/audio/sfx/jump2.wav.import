@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/ziherette1.wav-cf7f1e5bfffe66f8af3d934d69aa4386.sample"
+path="res://.import/jump2.wav-1dc6760fe0679193b60e463bf61aa495.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/ziherette1.wav"
-dest_files=[ "res://.import/ziherette1.wav-cf7f1e5bfffe66f8af3d934d69aa4386.sample" ]
+source_file="res://media/audio/sfx/jump2.wav"
+dest_files=[ "res://.import/jump2.wav-1dc6760fe0679193b60e463bf61aa495.sample" ]
 
 [params]
 

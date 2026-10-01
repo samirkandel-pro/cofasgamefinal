@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/transition.wav-7842a48fa8a8c1870fc37ae95ab5b107.sample"
+path="res://.import/jump3.wav-7f0e5d8502386dd44526dfd87ac26ac8.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/transition.wav"
-dest_files=[ "res://.import/transition.wav-7842a48fa8a8c1870fc37ae95ab5b107.sample" ]
+source_file="res://media/audio/sfx/jump3.wav"
+dest_files=[ "res://.import/jump3.wav-7f0e5d8502386dd44526dfd87ac26ac8.sample" ]
 
 [params]
 

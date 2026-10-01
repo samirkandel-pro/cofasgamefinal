@@ -64,7 +64,6 @@ bus = "SFX"
 scale = Vector2( 0.108, 0.12 )
 
 [node name="Flower" type="Sprite" parent="."]
-position = Vector2( -0.0756327, -0.0784563 )
 scale = Vector2( 0.128317, 0.123854 )
 texture = ExtResource( 7 )
 

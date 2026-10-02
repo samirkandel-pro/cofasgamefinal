@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/player_punch2.wav-7302fb38a681aa0ecd128f1f228b0a52.sample"
+path="res://.import/bomblong1.wav-6d92b3ec46a8f779dd8fe1c38f6bea0d.sample"
 
 [deps]
 
-source_file="res://media/audio/sfx/player_punch2.wav"
-dest_files=[ "res://.import/player_punch2.wav-7302fb38a681aa0ecd128f1f228b0a52.sample" ]
+source_file="res://media/audio/sfx/bomblong1.wav"
+dest_files=[ "res://.import/bomblong1.wav-6d92b3ec46a8f779dd8fe1c38f6bea0d.sample" ]
 
 [params]
 

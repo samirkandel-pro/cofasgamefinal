@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bomblong1.wav-6d92b3ec46a8f779dd8fe1c38f6bea0d.sample"
+
+[deps]
+
+source_file="res://media/audio/sfx/bomblong1.wav"
+dest_files=[ "res://.import/bomblong1.wav-6d92b3ec46a8f779dd8fe1c38f6bea0d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

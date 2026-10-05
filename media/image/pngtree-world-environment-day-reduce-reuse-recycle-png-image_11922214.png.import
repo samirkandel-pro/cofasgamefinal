@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/pngtree-world-environment-day-reduce-reuse-recycle-png-image_11922214.png-668b81ee283040bd5068c226a48ae40c.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://media/image/pngtree-world-environment-day-reduce-reuse-recycle-png-image_11922214.png"
+dest_files=[ "res://.import/pngtree-world-environment-day-reduce-reuse-recycle-png-image_11922214.png-668b81ee283040bd5068c226a48ae40c.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

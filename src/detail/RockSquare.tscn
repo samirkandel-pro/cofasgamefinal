@@ -1,4 +1,11 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://media/image/pngtree-world-environment-day-reduce-reuse-recycle-png-image_11922214.png" type="Texture" id=1]
 
 [node name="Square" type="Polygon2D"]
 polygon = PoolVector2Array( 200, 80, 190.866, 125.922, 164.853, 164.853, 125.922, 190.866, 80, 200, -80, 200, -125.922, 190.866, -164.853, 164.853, -190.866, 125.922, -200, 80, -200, -80, -190.866, -125.922, -164.853, -164.853, -125.922, -190.866, -80, -200, 80, -200, 125.922, -190.866, 164.853, -164.853, 190.866, -125.922, 200, -80 )
+
+[node name="Pngtree-world-environment-day-reduce-reuse-recycle-png-image11922214" type="Sprite" parent="."]
+position = Vector2( -3, 0 )
+rotation = -0.218166
+texture = ExtResource( 1 )

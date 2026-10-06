@@ -4,69 +4,73 @@
 
 [node name="Rocks" type="Node2D"]
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-position = Vector2( 40, 80 )
-polygon = PoolVector2Array( 40, 0, 36.9552, 15.3073, 28.2843, 28.2843, 15.3073, 36.9552, -1.74846e-06, 40, -15.3073, 36.9552, -28.2843, 28.2843, -36.9552, 15.3073, -40, -3.49691e-06, -36.9552, -15.3073, -28.2843, -28.2843, -15.3073, -36.9552, 4.76995e-07, -40, 15.3073, -36.9552, 28.2843, -28.2843, 36.9552, -15.3073 )
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="."]
+position = Vector2( 51.8924, 63.2904 )
+rotation = 3.14159
+scale = Vector2( 0.00991389, 0.0105677 )
+texture = ExtResource( 1 )
 
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D"]
-position = Vector2( -117, -80 )
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="."]
+position = Vector2( -77, 0 )
 scale = Vector2( 0.021, 0.021 )
 texture = ExtResource( 1 )
 offset = Vector2( 5619.05, 4428.57 )
 
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528"]
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528"]
 position = Vector2( -666.666, -1238.09 )
 rotation = -3.93397
 scale = Vector2( 0.87, 0.617 )
 texture = ExtResource( 1 )
 
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="Polygon2D"]
-position = Vector2( 11.8924, -16.7096 )
-rotation = 3.14159
-scale = Vector2( 0.00991389, 0.0105677 )
-texture = ExtResource( 1 )
-
-[node name="Polygon2D2" type="Polygon2D" parent="."]
-position = Vector2( -80, -40 )
-polygon = PoolVector2Array( 40, 0, 36.9552, 15.3073, 28.2843, 28.2843, 15.3073, 36.9552, -1.74846e-06, 40, -15.3073, 36.9552, -28.2843, 28.2843, -36.9552, 15.3073, -40, -3.49691e-06, -36.9552, -15.3073, -28.2843, -28.2843, -15.3073, -36.9552, 4.76995e-07, -40, 15.3073, -36.9552, 28.2843, -28.2843, 36.9552, -15.3073 )
-
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D2"]
-position = Vector2( -120.058, -74.5964 )
-scale = Vector2( 0.0217, 0.0193 )
-texture = ExtResource( 1 )
-offset = Vector2( 5619.05, 4428.57 )
-
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D2/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528"]
-position = Vector2( 5132.16, 3067.18 )
-rotation = -0.600393
-scale = Vector2( -1.06284, -0.619371 )
-texture = ExtResource( 1 )
-
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="Polygon2D2"]
-position = Vector2( 105, 107 )
-rotation = 2.40332
-scale = Vector2( 0.0153084, 0.0125425 )
-texture = ExtResource( 1 )
-
-[node name="Polygon2D3" type="Polygon2D" parent="."]
-position = Vector2( 80, -80 )
-polygon = PoolVector2Array( 80, 0, 73.9104, 30.6147, 56.5685, 56.5685, 30.6147, 73.9104, -3.49691e-06, 80, -30.6147, 73.9104, -56.5685, 56.5685, -73.9104, 30.6147, -80, -6.99382e-06, -73.9104, -30.6147, -56.5685, -56.5685, -30.6147, -73.9104, 9.5399e-07, -80, 30.6147, -73.9104, 56.5685, -56.5686, 73.9104, -30.6147 )
-
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D3"]
-position = Vector2( -235, -131 )
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530" type="Sprite" parent="."]
+position = Vector2( -155, -211 )
 scale = Vector2( 0.0425, 0.0369 )
 texture = ExtResource( 1 )
 offset = Vector2( 5619.05, 4428.57 )
 
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Polygon2D3/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528"]
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
 position = Vector2( 4850.4, 2650.61 )
 rotation = -3.93397
 scale = Vector2( 0.87, 0.617 )
 texture = ExtResource( 1 )
 offset = Vector2( 316.001, -312.648 )
 
-[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="Polygon2D3/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528"]
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
 position = Vector2( 6174.41, 2841.71 )
 rotation = -2.82394
 scale = Vector2( 0.62874, 0.853574 )
 texture = ExtResource( 1 )
+
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
+position = Vector2( -1060.19, 2612.56 )
+scale = Vector2( 0.510588, 0.523035 )
+texture = ExtResource( 1 )
+offset = Vector2( 5619.05, 4428.57 )
+
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
+position = Vector2( 5132.16, 3067.18 )
+rotation = -0.600393
+scale = Vector2( -1.06284, -0.619371 )
+texture = ExtResource( 1 )
+
+[node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201529" type="Sprite" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530/Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
+position = Vector2( 10371.3, 9409.14 )
+rotation = 2.34479
+scale = Vector2( 0.746469, 0.618351 )
+texture = ExtResource( 1 )
+
+[node name="Polygon2D2" type="Polygon2D" parent="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201530"]
+visible = false
+position = Vector2( 1764.71, 4634.15 )
+scale = Vector2( 23.5294, 27.1003 )
+polygon = PoolVector2Array( 40, 0, 36.9552, 15.3073, 28.2843, 28.2843, 15.3073, 36.9552, -1.74846e-06, 40, -15.3073, 36.9552, -28.2843, 28.2843, -36.9552, 15.3073, -40, -3.49691e-06, -36.9552, -15.3073, -28.2843, -28.2843, -15.3073, -36.9552, 4.76995e-07, -40, 15.3073, -36.9552, 28.2843, -28.2843, 36.9552, -15.3073 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+visible = false
+position = Vector2( 40, 80 )
+polygon = PoolVector2Array( 40, 0, 36.9552, 15.3073, 28.2843, 28.2843, 15.3073, 36.9552, -1.74846e-06, 40, -15.3073, 36.9552, -28.2843, 28.2843, -36.9552, 15.3073, -40, -3.49691e-06, -36.9552, -15.3073, -28.2843, -28.2843, -15.3073, -36.9552, 4.76995e-07, -40, 15.3073, -36.9552, 28.2843, -28.2843, 36.9552, -15.3073 )
+
+[node name="Polygon2D3" type="Polygon2D" parent="."]
+visible = false
+position = Vector2( 80, -80 )
+polygon = PoolVector2Array( 80, 0, 73.9104, 30.6147, 56.5685, 56.5685, 30.6147, 73.9104, -3.49691e-06, 80, -30.6147, 73.9104, -56.5685, 56.5685, -73.9104, 30.6147, -80, -6.99382e-06, -73.9104, -30.6147, -56.5685, -56.5685, -30.6147, -73.9104, 9.5399e-07, -80, 30.6147, -73.9104, 56.5685, -56.5686, 73.9104, -30.6147 )

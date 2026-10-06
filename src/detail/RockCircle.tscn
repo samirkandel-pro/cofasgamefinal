@@ -3,6 +3,7 @@
 [ext_resource path="res://media/image/pngtree-big-rock-stone-isolated-on-transparent-background-png-image_21201528.png" type="Texture" id=1]
 
 [node name="Circle" type="Polygon2D"]
+color = Color( 0, 0, 0, 0 )
 polygon = PoolVector2Array( 200, 0, 184.776, 76.5367, 141.421, 141.421, 76.5367, 184.776, -8.74228e-06, 200, -76.5367, 184.776, -141.421, 141.421, -184.776, 76.5367, -200, -1.74846e-05, -184.776, -76.5367, -141.421, -141.421, -76.5367, -184.776, 2.38498e-06, -200, 76.5367, -184.776, 141.421, -141.421, 184.776, -76.5367 )
 
 [node name="Pngtree-big-rock-stone-isolated-on-transparent-background-png-image21201528" type="Sprite" parent="."]

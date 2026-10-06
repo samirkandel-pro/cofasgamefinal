@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://src/class/shape/Rectangle.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Circle.gd" type="Script" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://src/arcade/ArcadeGame.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/stage/SolidTileMap.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/shader/inside_round_rect.gdshader" type="Shader" id=8]
+[ext_resource path="res://media/image/Retro Arcade Cabinet with Pixel Hero.png" type="Texture" id=9]
+[ext_resource path="res://media/image/joystick.png" type="Texture" id=10]
 
 [sub_resource type="ShaderMaterial" id=2]
 shader = ExtResource( 8 )
@@ -50,11 +52,16 @@ margin_bottom = 360.0
 [node name="Cabinet" type="Node2D" parent="CanvasLayer/Center/Control"]
 
 [node name="Back" type="Polygon2D" parent="CanvasLayer/Center/Control/Cabinet"]
-color = Color( 0, 0.631373, 0.94902, 1 )
+color = Color( 0, 0, 0, 1 )
 polygon = PoolVector2Array( 350, 360, -350, 360, -350, -360, 350, -360 )
 script = ExtResource( 1 )
 is_baked = false
 size = Vector2( 350, 360 )
+
+[node name="Sprite" type="Sprite" parent="CanvasLayer/Center/Control/Cabinet/Back"]
+position = Vector2( 3, -103 )
+scale = Vector2( 0.712644, 0.95374 )
+texture = ExtResource( 9 )
 
 [node name="Screen" type="Node2D" parent="CanvasLayer/Center/Control/Cabinet"]
 position = Vector2( 0, -70 )
@@ -74,7 +81,8 @@ rect_clip_content = true
 color = Color( 0, 0, 0, 1 )
 
 [node name="ViewportContainer" type="ViewportContainer" parent="CanvasLayer/Center/Control/Cabinet/Screen/Control"]
-margin_right = 1200.0
+margin_left = -4.44446
+margin_right = 1195.56
 margin_bottom = 1200.0
 
 [node name="Viewport" type="Viewport" parent="CanvasLayer/Center/Control/Cabinet/Screen/Control/ViewportContainer"]
@@ -88,6 +96,7 @@ audio_listener_enable_2d = true
 [node name="Game" parent="CanvasLayer/Center/Control/Cabinet/Screen/Control/ViewportContainer/Viewport" instance=ExtResource( 6 )]
 
 [node name="Border" type="ColorRect" parent="CanvasLayer/Center/Control/Cabinet/Screen/Control"]
+visible = false
 material = SubResource( 2 )
 margin_right = 1200.0
 margin_bottom = 1200.0
@@ -102,16 +111,19 @@ position = Vector2( -180, 23 )
 
 [node name="Polygon2D2" type="Polygon2D" parent="CanvasLayer/Center/Control/Cabinet/Controls/Joystick"]
 position = Vector2( 0, -50 )
-color = Color( 0.392157, 0, 0.196078, 1 )
-polygon = PoolVector2Array( 15, 50, 14.6239, 53.3378, 13.5145, 56.5083, 11.7275, 59.3523, 9.35235, 61.7275, 6.50826, 63.5145, 3.33781, 64.6239, -6.55671e-07, 65, -3.33781, 64.6239, -6.50826, 63.5145, -9.35235, 61.7275, -11.7275, 59.3523, -13.5145, 56.5083, -14.6239, 53.3378, -15, 50, -15, -50, -14.6239, -53.3378, -13.5145, -56.5083, -11.7275, -59.3523, -9.35234, -61.7275, -6.50826, -63.5145, -3.33782, -64.6239, 1.78873e-07, -65, 3.33782, -64.6239, 6.50826, -63.5145, 9.35235, -61.7275, 11.7275, -59.3523, 13.5145, -56.5083, 14.6239, -53.3378, 15, -50 )
+color = Color( 0, 0, 0, 0 )
+polygon = PoolVector2Array( 15, 50, 14.6239, 53.3378, 13.5145, 56.5083, 11.7275, 59.3523, 9.35235, 61.7275, 6.50826, 63.5145, 3.33781, 64.6239, -6.55671e-07, 65, -3.33781, 64.6239, -6.50826, 63.5145, -9.35235, 61.7275, -11.7275, 59.3523, -13.5145, 56.5083, -14.6239, 53.3378, -15, 50, -15, -50, -14.6239, -53.3378, -13.5145, -56.5083, -11.7275, -59.3523, -9.35234, -61.7275, -6.50826, -63.5145, -3.33782, -64.6239, 1.78873e-07, -65, 3.33782, -64.6239, 6.50826, -63.5145, 9.35235, -61.7275, 11.7275, -59.3523, 13.5145, -56.5083, 14.6239, -53.3378, 15, -50, 15, -25.6003 )
 script = ExtResource( 1 )
 is_baked = false
 size = Vector2( 15, 65 )
 radius = Plane( -2, -1, -1, -1 )
 
+[node name="Sprite" type="Sprite" parent="CanvasLayer/Center/Control/Cabinet/Controls/Joystick/Polygon2D2"]
+texture = ExtResource( 10 )
+
 [node name="Polygon2D" type="Polygon2D" parent="CanvasLayer/Center/Control/Cabinet/Controls/Joystick"]
 position = Vector2( 0, -70 )
-color = Color( 1, 0, 0, 1 )
+color = Color( 0, 0, 0, 0 )
 polygon = PoolVector2Array( 50, 0, 46.194, 19.1342, 35.3553, 35.3553, 19.1342, 46.194, -2.18557e-06, 50, -19.1342, 46.194, -35.3553, 35.3553, -46.194, 19.1342, -50, -4.37114e-06, -46.194, -19.1342, -35.3553, -35.3553, -19.1342, -46.194, 5.96244e-07, -50, 19.1342, -46.194, 35.3553, -35.3553, 46.194, -19.1342 )
 script = ExtResource( 2 )
 
@@ -141,7 +153,7 @@ rect_clip_content = true
 
 [node name="Polygon2D3" type="Polygon2D" parent="CanvasLayer/Center/Control/Cabinet/Controls/Button/Control/Node2D"]
 position = Vector2( 40, 40 )
-color = Color( 1, 0, 0, 1 )
+color = Color( 0.784314, 0.498039, 0.498039, 1 )
 polygon = PoolVector2Array( 40, 60, -40, 60, -40, -3.49691e-06, -38.9971, -8.90084, -36.0388, -17.3554, -31.2733, -24.9396, -24.9396, -31.2733, -17.3554, -36.0387, -8.90084, -38.9971, 4.76995e-07, -40, 8.90084, -38.9971, 17.3554, -36.0387, 24.9396, -31.2733, 31.2733, -24.9396, 36.0388, -17.3554, 38.9971, -8.90083, 40, 6.99382e-06 )
 script = ExtResource( 1 )
 is_baked = false
@@ -175,7 +187,7 @@ rect_clip_content = true
 
 [node name="Polygon2D3" type="Polygon2D" parent="CanvasLayer/Center/Control/Cabinet/Controls/Button2/Control/Node2D"]
 position = Vector2( 40, 40 )
-color = Color( 1, 0, 0, 1 )
+color = Color( 0.898039, 0.423529, 0.423529, 1 )
 polygon = PoolVector2Array( 40, 60, -40, 60, -40, -3.49691e-06, -38.9971, -8.90084, -36.0388, -17.3554, -31.2733, -24.9396, -24.9396, -31.2733, -17.3554, -36.0387, -8.90084, -38.9971, 4.76995e-07, -40, 8.90084, -38.9971, 17.3554, -36.0387, 24.9396, -31.2733, 31.2733, -24.9396, 36.0388, -17.3554, 38.9971, -8.90083, 40, 6.99382e-06 )
 script = ExtResource( 1 )
 is_baked = false

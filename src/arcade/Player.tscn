@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/class/shape/Rectangle.gd" type="Script" id=1]
 [ext_resource path="res://src/class/shape/Circle.gd" type="Script" id=2]
 [ext_resource path="res://src/arcade/Player.gd" type="Script" id=3]
 [ext_resource path="res://src/arcade/Wrapper.gd" type="Script" id=4]
+[ext_resource path="res://media/image/88af003ce2e182605b6de4829d55384c.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 20, 34 )
@@ -18,10 +19,12 @@ jump_speed = 630.0
 hit_speed = 800.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 scale = Vector2( 0.999999, 0.999999 )
 shape = SubResource( 3 )
 
 [node name="Area2D" type="Area2D" parent="."]
+visible = false
 collision_layer = 0
 collision_mask = 2
 
@@ -29,12 +32,15 @@ collision_mask = 2
 shape = SubResource( 6 )
 
 [node name="Sprites" type="Node2D" parent="."]
+visible = false
 position = Vector2( 6.10352e-05, 6.10352e-05 )
 
 [node name="Root" type="Node2D" parent="Sprites"]
+visible = false
 position = Vector2( -6.10352e-05, 34.9999 )
 
 [node name="Body" type="Node2D" parent="Sprites/Root"]
+visible = false
 position = Vector2( 0, -35 )
 scale = Vector2( 0.7, 0.7 )
 
@@ -88,6 +94,7 @@ size = Vector2( 10, 10 )
 points = 4
 
 [node name="Right" type="Polygon2D" parent="Sprites/Root/Body/Legs"]
+visible = false
 rotation = -0.523598
 polygon = PoolVector2Array( 10, 40, 8.66025, 45, 5, 48.6603, -4.37114e-07, 50, -5, 48.6603, -8.66025, 45, -10, 40, -10, -8.74228e-07, -8.66025, -5, -5, -8.66025, 1.19249e-07, -10, 5, -8.66025, 8.66025, -5, 10, 1.74846e-06 )
 script = ExtResource( 1 )
@@ -98,5 +105,11 @@ radius = Plane( -2, -2, -2, -2 )
 points = 4
 
 [node name="Wrapper" type="Node2D" parent="."]
+visible = false
 script = ExtResource( 4 )
 image_path = NodePath("../Sprites/Root")
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 3, -2 )
+scale = Vector2( 0.106389, 0.106389 )
+texture = ExtResource( 5 )

@@ -14,11 +14,14 @@ script = ExtResource( 2 )
 speed = 130.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 shape = SubResource( 4 )
 
 [node name="Sprites" type="Node2D" parent="."]
-visible = false
+
+[node name="Sprite" type="Sprite" parent="Sprites"]
+position = Vector2( 0, 1 )
+scale = Vector2( 0.115234, 0.115234 )
+texture = ExtResource( 4 )
 
 [node name="Head" type="Polygon2D" parent="Sprites"]
 visible = false
@@ -29,7 +32,6 @@ size = Vector2( 30, 30 )
 radius = Plane( 10, 10, -2, -2 )
 
 [node name="EyeL" type="Polygon2D" parent="Sprites/Head"]
-visible = false
 position = Vector2( -15, 0 )
 color = Color( 0, 0, 0, 1 )
 polygon = PoolVector2Array( 7, 5, 6.06218, 8.5, 3.5, 11.0622, -3.0598e-07, 12, -3.5, 11.0622, -6.06218, 8.5, -7, 5, -7, -5, -6.06218, -8.5, -3.5, -11.0622, 8.34742e-08, -12, 3.5, -11.0622, 6.06218, -8.5, 7, -5 )
@@ -40,7 +42,6 @@ radius = Plane( -2, -1, -1, -1 )
 points = 4
 
 [node name="EyeR" type="Polygon2D" parent="Sprites/Head"]
-visible = false
 position = Vector2( 15, 0 )
 color = Color( 0, 0, 0, 1 )
 polygon = PoolVector2Array( 7, 5, 6.06218, 8.5, 3.5, 11.0622, -3.0598e-07, 12, -3.5, 11.0622, -6.06218, 8.5, -7, 5, -7, -5, -6.06218, -8.5, -3.5, -11.0622, 8.34742e-08, -12, 3.5, -11.0622, 6.06218, -8.5, 7, -5 )
@@ -51,11 +52,5 @@ radius = Plane( -2, -1, -1, -1 )
 points = 4
 
 [node name="Wrapper" type="Node2D" parent="."]
-visible = false
 script = ExtResource( 3 )
 image_path = NodePath("../Sprites")
-
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 0, 1 )
-scale = Vector2( 0.115234, 0.115234 )
-texture = ExtResource( 4 )

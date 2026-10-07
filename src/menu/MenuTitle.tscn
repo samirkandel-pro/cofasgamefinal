@@ -156,9 +156,10 @@ credits_path = NodePath("../Credits")
 [node name="BG" type="ColorRect" parent="Canvas/CenterContainer/Control/MenuTitle"]
 modulate = Color( 0, 0, 0, 0.8 )
 material = SubResource( 22 )
-margin_left = 50.0
-margin_right = 384.0
-margin_bottom = 720.0
+margin_left = -10.0
+margin_top = 2.0
+margin_right = 497.0
+margin_bottom = 722.0
 
 [node name="Cursor" type="Panel" parent="Canvas/CenterContainer/Control/MenuTitle"]
 modulate = Color( 0.658824, 0, 0, 1 )
@@ -172,7 +173,10 @@ __meta__ = {
 [node name="List" type="VBoxContainer" parent="Canvas/CenterContainer/Control/MenuTitle"]
 anchor_right = 0.3
 anchor_bottom = 1.0
-margin_left = 50.0
+margin_left = 69.0
+margin_top = -3.0
+margin_right = 19.0
+margin_bottom = -3.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 custom_constants/separation = 15
@@ -180,9 +184,9 @@ alignment = 1
 
 [node name="Play" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
 margin_left = 60.0
-margin_top = 235.0
+margin_top = 202.0
 margin_right = 274.0
-margin_bottom = 286.0
+margin_bottom = 253.0
 size_flags_horizontal = 4
 size_flags_vertical = 5
 theme = ExtResource( 26 )
@@ -209,9 +213,9 @@ __meta__ = {
 
 [node name="Options" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
 margin_left = 61.0
-margin_top = 301.0
+margin_top = 268.0
 margin_right = 273.0
-margin_bottom = 352.0
+margin_bottom = 319.0
 size_flags_horizontal = 4
 size_flags_vertical = 5
 theme = ExtResource( 26 )
@@ -224,9 +228,9 @@ __meta__ = {
 
 [node name="Credits" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
 margin_left = 1.0
-margin_top = 367.0
+margin_top = 334.0
 margin_right = 333.0
-margin_bottom = 418.0
+margin_bottom = 385.0
 size_flags_horizontal = 4
 size_flags_vertical = 5
 theme = ExtResource( 26 )
@@ -238,10 +242,9 @@ __meta__ = {
 }
 
 [node name="Store" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
-visible = false
-margin_left = 23.0
+margin_left = 97.0
 margin_top = 400.0
-margin_right = 311.0
+margin_right = 237.0
 margin_bottom = 451.0
 size_flags_horizontal = 4
 size_flags_vertical = 5
@@ -256,9 +259,9 @@ __meta__ = {
 
 [node name="Exit" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
 margin_left = 109.0
-margin_top = 433.0
+margin_top = 466.0
 margin_right = 224.0
-margin_bottom = 484.0
+margin_bottom = 517.0
 size_flags_horizontal = 4
 size_flags_vertical = 5
 theme = ExtResource( 26 )
@@ -287,14 +290,16 @@ sub_stay_open = true
 material = SubResource( 21 )
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 80.0
-margin_right = -80.0
-margin_bottom = 55.0
+margin_left = 2.0
+margin_right = 76.0
+margin_bottom = 113.4
 color = Color( 0, 0, 0, 1 )
 
 [node name="Lists" type="Control" parent="Canvas/CenterContainer/Control/FileMenu"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_right = 76.0
+margin_bottom = 0.400024
 
 [node name="ListBack" type="VBoxContainer" parent="Canvas/CenterContainer/Control/FileMenu/Lists"]
 modulate = Color( 0, 0, 0, 1 )
@@ -306,9 +311,9 @@ custom_constants/separation = 20
 alignment = 1
 
 [node name="File1" type="Panel" parent="Canvas/CenterContainer/Control/FileMenu/Lists/ListBack"]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 52.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 227.0
 rect_min_size = Vector2( 350, 175 )
 size_flags_horizontal = 4
@@ -320,9 +325,9 @@ __meta__ = {
 }
 
 [node name="File2" type="Panel" parent="Canvas/CenterContainer/Control/FileMenu/Lists/ListBack"]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 247.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 422.0
 rect_min_size = Vector2( 350, 175 )
 size_flags_horizontal = 4
@@ -334,9 +339,9 @@ __meta__ = {
 }
 
 [node name="File3" type="Panel" parent="Canvas/CenterContainer/Control/FileMenu/Lists/ListBack"]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 442.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 617.0
 rect_min_size = Vector2( 350, 175 )
 size_flags_horizontal = 4
@@ -365,22 +370,22 @@ custom_constants/separation = 20
 alignment = 1
 
 [node name="FileCard" parent="Canvas/CenterContainer/Control/FileMenu/Lists/List" instance=ExtResource( 5 )]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 52.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 227.0
 
 [node name="FileCard2" parent="Canvas/CenterContainer/Control/FileMenu/Lists/List" instance=ExtResource( 5 )]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 247.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 422.0
 slot = 1
 
 [node name="FileCard3" parent="Canvas/CenterContainer/Control/FileMenu/Lists/List" instance=ExtResource( 5 )]
-margin_left = 145.0
+margin_left = 183.0
 margin_top = 442.0
-margin_right = 495.0
+margin_right = 533.0
 margin_bottom = 617.0
 slot = 2
 
@@ -587,7 +592,7 @@ __meta__ = {
 }
 
 [node name="Credits" type="Control" parent="Canvas/CenterContainer/Control"]
-margin_right = 1280.0
+margin_right = 1318.0
 margin_bottom = 720.0
 script = ExtResource( 20 )
 fade_path = NodePath(".")
@@ -603,6 +608,10 @@ material = SubResource( 21 )
 anchor_left = 0.5
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -166.0
+margin_top = -2.0
+margin_right = 166.0
+margin_bottom = 68.0
 
 [node name="Patch" type="Label" parent="Canvas/CenterContainer/Control/Credits"]
 modulate = Color( 1, 1, 1, 0.5 )
@@ -621,15 +630,17 @@ valign = 2
 anchor_left = 0.55
 anchor_right = 0.95
 anchor_bottom = 0.95
+margin_right = 52.0
+margin_bottom = 38.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 custom_constants/separation = 0
 alignment = 1
 
 [node name="Prefix" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
-margin_top = 305.0
-margin_right = 512.0
-margin_bottom = 336.0
+margin_top = 294.0
+margin_right = 579.0
+margin_bottom = 325.0
 custom_fonts/font = SubResource( 6 )
 text = "A GAME BY"
 valign = 1
@@ -638,10 +649,10 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
-margin_left = 159.0
-margin_top = 336.0
-margin_right = 353.0
-margin_bottom = 379.0
+margin_left = 192.0
+margin_top = 325.0
+margin_right = 386.0
+margin_bottom = 368.0
 size_flags_horizontal = 4
 custom_fonts/font = SubResource( 7 )
 text = "Ankuram"
@@ -653,9 +664,9 @@ __meta__ = {
 
 [node name="Control" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
 visible = false
-margin_top = 45.0
-margin_right = 512.0
-margin_bottom = 195.0
+margin_top = 293.0
+margin_right = 564.0
+margin_bottom = 443.0
 rect_min_size = Vector2( 0, 150 )
 
 [node name="TextureRect" type="TextureRect" parent="Canvas/CenterContainer/Control/Credits/List/Control"]
@@ -667,26 +678,24 @@ expand = true
 stretch_mode = 6
 
 [node name="Suffix" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
-visible = false
-margin_top = 195.0
-margin_right = 512.0
-margin_bottom = 226.0
+margin_top = 368.0
+margin_right = 579.0
+margin_bottom = 399.0
 custom_fonts/font = SubResource( 6 )
 align = 2
 valign = 1
 
 [node name="Spacer" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
-visible = false
-margin_top = 226.0
-margin_right = 512.0
-margin_bottom = 244.0
+margin_top = 399.0
+margin_right = 579.0
+margin_bottom = 417.0
 rect_min_size = Vector2( 0, 18 )
 
 [node name="Prefix2" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
 visible = false
-margin_top = 244.0
-margin_right = 512.0
-margin_bottom = 275.0
+margin_top = 402.0
+margin_right = 564.0
+margin_bottom = 433.0
 custom_fonts/font = SubResource( 6 )
 text = "   made with"
 valign = 1
@@ -706,10 +715,10 @@ stretch_mode = 6
 
 [node name="Label2" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
 visible = false
-margin_left = 90.0
-margin_top = 595.0
-margin_right = 549.0
-margin_bottom = 661.0
+margin_left = 134.0
+margin_top = 396.0
+margin_right = 429.0
+margin_bottom = 439.0
 size_flags_horizontal = 4
 custom_fonts/font = SubResource( 7 )
 text = "Godot Engine"
@@ -721,9 +730,9 @@ __meta__ = {
 
 [node name="Suffix2" type="Label" parent="Canvas/CenterContainer/Control/Credits/List"]
 visible = false
-margin_top = 425.0
-margin_right = 512.0
-margin_bottom = 456.0
+margin_top = 407.0
+margin_right = 564.0
+margin_bottom = 438.0
 custom_fonts/font = SubResource( 6 )
 text = "godotengine.org   "
 align = 2
@@ -731,9 +740,9 @@ valign = 1
 
 [node name="Spacer2" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
 visible = false
-margin_top = 456.0
-margin_right = 512.0
-margin_bottom = 474.0
+margin_top = 429.0
+margin_right = 564.0
+margin_bottom = 447.0
 rect_min_size = Vector2( 0, 18 )
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Canvas/CenterContainer/Control/Credits/List"]
@@ -777,10 +786,9 @@ texture = ExtResource( 27 )
 expand = true
 
 [node name="Spacer3" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
-visible = false
-margin_top = 524.0
-margin_right = 512.0
-margin_bottom = 534.0
+margin_top = 417.0
+margin_right = 579.0
+margin_bottom = 427.0
 rect_min_size = Vector2( 0, 10 )
 
 [node name="HFlowContainer" type="HFlowContainer" parent="Canvas/CenterContainer/Control/Credits/List"]

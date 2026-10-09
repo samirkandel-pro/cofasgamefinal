@@ -3,7 +3,7 @@
 [ext_resource path="res://media/image/UI/harmony-monroe-square-white.png" type="Texture" id=1]
 [ext_resource path="res://src/menu/Splash.gd" type="Script" id=2]
 [ext_resource path="res://media/audio/sfx/bell1.wav" type="AudioStream" id=3]
-[ext_resource path="res://media/font/mini-wakuwaku.otf" type="DynamicFontData" id=4]
+[ext_resource path="res://media/font/alexandria-latin-100-normal.ttf" type="DynamicFontData" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 58
@@ -60,8 +60,10 @@ anchor_left = 0.5
 anchor_top = 0.51
 anchor_right = 0.5
 anchor_bottom = 0.6
-margin_left = -420.0
-margin_right = 420.0
+margin_left = -425.0
+margin_top = -28.2
+margin_right = 449.0
+margin_bottom = -42.0
 custom_colors/font_color = Color( 0.851, 0.886, 0.91, 1 )
 custom_fonts/font = SubResource( 2 )
 text = "EVERY CHOICE CHANGES THE CITY"
@@ -74,7 +76,9 @@ anchor_top = 0.61
 anchor_right = 0.5
 anchor_bottom = 0.68
 margin_left = -300.0
+margin_top = -14.2
 margin_right = 300.0
+margin_bottom = -14.2
 custom_colors/font_color = Color( 0.447, 0.776, 0.71, 1 )
 custom_fonts/font = SubResource( 2 )
 text = "A GAME BY ANKURAM"

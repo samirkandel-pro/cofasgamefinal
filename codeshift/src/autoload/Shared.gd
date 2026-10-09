@@ -822,7 +822,4 @@ func achieve(arg := ""):
 ### Demo ###
 
 func store_page():
-	if Steam.is_init:
-		Steam.friends.activate_game_overlay_to_store(1993830, Steam.OverlayToStoreFlag.None)
-	else:
-		OS.shell_open("https://store.steampowered.com/app/1993830/ROTA/")
+	return

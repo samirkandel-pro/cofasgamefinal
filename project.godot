@@ -156,11 +156,11 @@ config/name="CLEAN//SHIFT"
 config/description="CLEAN//SHIFT - Every step helps clean the city."
 run/main_scene="res://src/menu/Splash.tscn"
 config/use_custom_user_dir=true
-config/custom_user_dir_name="ROTA-Harmony"
+config/custom_user_dir_name="Ankuram-CLEAN_SHIFT"
 config/project_settings_override="user://override.cfg"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://media/image/icon/icon256.png"
-config/windows_native_icon="res://media/image/icon/rota.ico"
+config/windows_native_icon="res://media/image/icon/clean_shift.ico"
 
 [autoload]
 

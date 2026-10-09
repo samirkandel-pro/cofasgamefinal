@@ -1,6 +1,6 @@
-butler push win harmonymonroe/rota:win
-butler push linux harmonymonroe/rota:linux
-butler push mac harmonymonroe/rota:mac
-butler push web harmonymonroe/rota:web
-butler push android harmonymonroe/rota:android
+butler push win ankuram/clean_shift:win
+butler push linux ankuram/clean_shift:linux
+butler push mac ankuram/clean_shift:mac
+butler push web ankuram/clean_shift:web
+butler push android ankuram/clean_shift:android
 pause

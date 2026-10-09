@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/harmony-monroe-square-white.png-ddf61032c5d50c1bf08c2fd5160a5188.stex"
+path="res://.import/ankuram-white.png-a4ff6727887f6af74a8598bc183c2d33.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://media/image/UI/harmony-monroe-square-white.png"
-dest_files=[ "res://.import/harmony-monroe-square-white.png-ddf61032c5d50c1bf08c2fd5160a5188.stex" ]
+source_file="res://media/image/UI/ankuram-white.png"
+dest_files=[ "res://.import/ankuram-white.png-a4ff6727887f6af74a8598bc183c2d33.stex" ]
 
 [params]
 

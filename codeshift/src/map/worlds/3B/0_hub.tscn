@@ -119,7 +119,7 @@ dye = {
 hairstyle_back = 0
 hairstyle_front = 8
 is_npc = true
-lines = [ "The desert is so peaceful..", "I love these hot days and cool nights (:", "Maybe I'll visit the snow next!", "I've travelled all over ROTA!", "What's your favorite destination? (;", "I'm afraid of heights! 0=", "This last puzzle is a long way down!", "I saw someone levitating blocks! I wonder how..", "How to bridge the gap? hmm..", "Hello friend! (=" ]
+lines = [ "The desert is so peaceful..", "I love these hot days and cool nights (:", "Maybe I'll visit the snow next!", "I've travelled all over CLEAN//SHIFT!", "What's your favorite destination? (;", "I'm afraid of heights! 0=", "This last puzzle is a long way down!", "I saw someone levitating blocks! I wonder how..", "How to bridge the gap? hmm..", "Hello friend! (=" ]
 greeting = 9
 
 [node name="NPC2" parent="Actors" instance=ExtResource( 15 )]

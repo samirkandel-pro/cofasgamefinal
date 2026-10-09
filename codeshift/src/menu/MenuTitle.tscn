@@ -12,7 +12,7 @@
 [ext_resource path="res://src/detail/FlowerPetals.tscn" type="PackedScene" id=10]
 [ext_resource path="res://src/detail/Candle.tscn" type="PackedScene" id=11]
 [ext_resource path="res://src/detail/Lamppost.tscn" type="PackedScene" id=12]
-[ext_resource path="res://media/image/UI/harmony-monroe-white.png" type="Texture" id=13]
+[ext_resource path="res://media/image/UI/ankuram-white.png" type="Texture" id=13]
 [ext_resource path="res://src/menu/MenuFile.gd" type="Script" id=14]
 [ext_resource path="res://src/menu/MenuTitle.gd" type="Script" id=15]
 [ext_resource path="res://src/menu/MenuFileDelete.gd" type="Script" id=16]
@@ -645,7 +645,7 @@ margin_right = 592.0
 margin_bottom = 191.0
 size_flags_horizontal = 4
 custom_fonts/font = SubResource( 7 )
-text = "SOURYA POUDEL"
+text = "ANKURAM"
 align = 1
 valign = 1
 __meta__ = {
@@ -797,7 +797,7 @@ margin_right = 284.0
 margin_bottom = 31.0
 size_flags_horizontal = 6
 custom_fonts/font = SubResource( 6 )
-text = "SOURYA POUDEL"
+text = "ANKURAM"
 align = 1
 valign = 1
 
@@ -920,7 +920,7 @@ margin_right = 2100.0
 margin_bottom = 800.0
 custom_colors/font_color = Color( 0.25098, 0.25098, 0.25098, 1 )
 custom_fonts/font = SubResource( 4 )
-text = "CITY//SHIFT"
+text = "CLEAN//SHIFT"
 align = 1
 valign = 1
 __meta__ = {

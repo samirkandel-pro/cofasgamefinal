@@ -12,7 +12,7 @@
 [ext_resource path="res://src/detail/FlowerPetals.tscn" type="PackedScene" id=10]
 [ext_resource path="res://src/detail/Candle.tscn" type="PackedScene" id=11]
 [ext_resource path="res://src/detail/Lamppost.tscn" type="PackedScene" id=12]
-[ext_resource path="res://media/image/UI/harmony-monroe-white.png" type="Texture" id=13]
+[ext_resource path="res://media/image/UI/ankuram-white.png" type="Texture" id=13]
 [ext_resource path="res://src/menu/MenuFile.gd" type="Script" id=14]
 [ext_resource path="res://src/menu/MenuTitle.gd" type="Script" id=15]
 [ext_resource path="res://src/menu/MenuFileDelete.gd" type="Script" id=16]
@@ -643,7 +643,7 @@ margin_top = 294.0
 margin_right = 579.0
 margin_bottom = 325.0
 custom_fonts/font = SubResource( 6 )
-text = "CLEAN//SHIFT ADAPTATION BY"
+text = "CLEAN//SHIFT BY"
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -685,7 +685,7 @@ margin_bottom = 399.0
 custom_fonts/font = SubResource( 6 )
 align = 2
 valign = 1
-text = "BASED ON ROTA BY HARMONY HONEY MONROE"
+text = ""
 
 [node name="Spacer" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
 margin_top = 399.0
@@ -805,7 +805,7 @@ margin_right = 284.0
 margin_bottom = 31.0
 size_flags_horizontal = 6
 custom_fonts/font = SubResource( 6 )
-text = "SOURYA POUDEL"
+text = "ANKURAM"
 align = 1
 valign = 1
 

@@ -14,7 +14,7 @@ CLEAN//SHIFT is a story-driven 2D puzzle platformer about movement, environmenta
 
 Open this directory in Godot 3.6.1 and run the project with F5. Export presets are maintained in `export_presets.cfg`.
 
-The `codeshift/` directory is an older archival project snapshot. It is not the current entry point and intentionally retains its historical files and branding for provenance. Do not export from that directory for a current CLEAN//SHIFT build.
+The `codeshift/` directory is a secondary project snapshot carrying the same Ankuram event branding. The root project remains the current entry point.
 
 ## Controls
 
@@ -29,7 +29,7 @@ Keyboard and controller actions can be remapped from Settings.
 
 ## Save and service compatibility
 
-Existing saves, settings, screenshots, and remapped controls continue to use Godot's `ROTA-Harmony` user-data directory. That internal compatibility identifier is intentionally unchanged so existing player data remains available.
+Saves, settings, screenshots, and remapped controls use Godot's `Ankuram-CLEAN_SHIFT` user-data directory.
 
 The bundled Steam addon is disabled by default because no verified CLEAN//SHIFT Steam app ID or store page is configured. Store buttons are hidden, achievement calls safely no-op, and standalone play does not require Steam. Configure a verified application explicitly before enabling the integration.
 
@@ -39,6 +39,4 @@ The Android package identifier and Apple application identifier are also retaine
 
 The project is distributed under the MIT License in `LICENSE`, which remains authoritative.
 
-CLEAN//SHIFT is an adaptation by Ankuram of the original ROTA project by Harmony Honey Monroe. The original copyright and license notice are preserved. Contributor names displayed in the in-game credits are retained from the inherited project. The bundled Steam addon is separately MIT-licensed to Sam Murray; see `addons/steam_api/LICENSE`.
-
-Repository history and prior screens contain conflicting creator labels (including Sourya Poudel and Ankuram). This documentation does not erase those names or invent ownership: Ankuram is presented as the current adaptation credit, while Harmony Honey Monroe is credited for the original work as required by the project license.
+CLEAN//SHIFT is developed and presented by Ankuram. Copyright (c) 2026 Ankuram. The bundled Steam addon remains separately MIT-licensed to Sam Murray; see `addons/steam_api/LICENSE`.

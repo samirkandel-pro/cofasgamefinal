@@ -822,6 +822,5 @@ func achieve(arg := ""):
 ### Demo ###
 
 func store_page():
-	# No CLEAN//SHIFT store page has been verified. Intentionally do nothing
-	# rather than opening or reporting activity to the inherited ROTA listing.
+	# No CLEAN//SHIFT store page has been verified. Intentionally do nothing.
 	return

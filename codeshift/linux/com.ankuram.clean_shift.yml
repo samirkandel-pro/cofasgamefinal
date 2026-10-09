@@ -1,4 +1,4 @@
-id: net.hhoney.rota
+id: com.ankuram.clean_shift
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 base: org.godotengine.godot.BaseApp
@@ -11,7 +11,7 @@ finish-args:
   - --socket=pulseaudio
   - --device=all
 modules:
-  - name: rota
+  - name: clean_shift
     buildsystem: simple
     build-commands:
       - install -Dm644 godot-runner.pck ${FLATPAK_DEST}/bin/godot-runner.pck
@@ -23,8 +23,3 @@ modules:
     sources:
       - type: dir
         path: ../
-
-      - type: file
-        url: https://github.com/HarmonyHoney/ROTA/releases/download/2026.03.12/rota-ci-2026.03.12.pck
-        sha256: c5ce39dbe3328072be3b83ac7e3cf2df3bdb0706ef4317f948c1f8897aea4921
-        dest-filename: godot-runner.pck

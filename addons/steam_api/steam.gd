@@ -2,6 +2,10 @@ extends SteamI
 
 func _ready() -> void:
 	var settings = load("res://addons/steam_api/settings.tres")
+	# CLEAN//SHIFT has no verified Steam application configuration. Keep this
+	# autoload as a safe no-op so existing achievement callers remain compatible.
+	if settings and settings.disable:
+		return
 	api_ = SteamAPI.new()
 	if not api_ or not api_.init():
 		api_ = null

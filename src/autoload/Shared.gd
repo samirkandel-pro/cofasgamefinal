@@ -822,7 +822,6 @@ func achieve(arg := ""):
 ### Demo ###
 
 func store_page():
-	if Steam.is_init:
-		Steam.friends.activate_game_overlay_to_store(1993830, Steam.OverlayToStoreFlag.None)
-	else:
-		OS.shell_open("https://store.steampowered.com/app/1993830/ROTA/")
+	# No CLEAN//SHIFT store page has been verified. Intentionally do nothing
+	# rather than opening or reporting activity to the inherited ROTA listing.
+	return

@@ -242,6 +242,7 @@ __meta__ = {
 }
 
 [node name="Store" type="Label" parent="Canvas/CenterContainer/Control/MenuTitle/List"]
+visible = false
 margin_left = 97.0
 margin_top = 400.0
 margin_right = 237.0
@@ -642,7 +643,7 @@ margin_top = 294.0
 margin_right = 579.0
 margin_bottom = 325.0
 custom_fonts/font = SubResource( 6 )
-text = "A GAME BY"
+text = "CLEAN//SHIFT ADAPTATION BY"
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -684,6 +685,7 @@ margin_bottom = 399.0
 custom_fonts/font = SubResource( 6 )
 align = 2
 valign = 1
+text = "BASED ON ROTA BY HARMONY HONEY MONROE"
 
 [node name="Spacer" type="Control" parent="Canvas/CenterContainer/Control/Credits/List"]
 margin_top = 399.0
@@ -937,7 +939,7 @@ margin_right = 2100.0
 margin_bottom = 790.0
 custom_colors/font_color = Color( 0.25098, 0.25098, 0.25098, 1 )
 custom_fonts/font = SubResource( 26 )
-text = "EVERY STEPS CLEAN THE CITY"
+text = "EVERY STEP HELPS CLEAN THE CITY."
 align = 1
 valign = 1
 

@@ -152,8 +152,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="CLEAN_SHIFT"
-config/description="CLEAN_SHIFT - Every steps clean the city. Created by Ankuram"
+config/name="CLEAN//SHIFT"
+config/description="CLEAN//SHIFT - Every step helps clean the city."
 run/main_scene="res://src/menu/Splash.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="ROTA-Harmony"
@@ -177,12 +177,13 @@ MenuMakeover="*res://src/menu/MenuMakeover.tscn"
 Audio="*res://src/autoload/Audio.tscn"
 Clouds="*res://src/autoload/Clouds.tscn"
 TouchScreen="*res://src/autoload/touch_screen.tscn"
-Steam="*res://addons/steam_api/steam.gd"
+Steam="*res://addons/steam_api/steam_i.gd"
 
 [display]
 
 window/size/width=1280
 window/size/height=720
+window/size/fullscreen=true
 window/size/test_width=1920
 window/size/test_height=1080
 window/stretch/mode="2d"

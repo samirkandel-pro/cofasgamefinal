@@ -51,7 +51,7 @@ margin_left = -360.0
 margin_right = 360.0
 custom_colors/font_color = Color( 0.949, 0.757, 0.306, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "CLEAN_SHIFT"
+text = "CLEAN//SHIFT"
 align = 1
 valign = 1
 
@@ -66,7 +66,7 @@ margin_right = 449.0
 margin_bottom = -42.0
 custom_colors/font_color = Color( 0.851, 0.886, 0.91, 1 )
 custom_fonts/font = SubResource( 2 )
-text = "EVERY CHOICE CHANGES THE CITY"
+text = "EVERY STEP HELPS CLEAN THE CITY."
 align = 1
 valign = 1
 
@@ -81,7 +81,7 @@ margin_right = 300.0
 margin_bottom = -14.2
 custom_colors/font_color = Color( 0.447, 0.776, 0.71, 1 )
 custom_fonts/font = SubResource( 2 )
-text = "A GAME BY ANKURAM"
+text = "AN ADAPTATION BY ANKURAM"
 align = 1
 valign = 1
 

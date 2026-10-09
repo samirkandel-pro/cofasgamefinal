@@ -1,75 +1,44 @@
-﻿# CITY//SHIFT
+# CLEAN//SHIFT
 
-A story-driven 2D puzzle platformer built in Godot where every choice alters the city around you.
+Every step helps clean the city.
 
-## Overview
+CLEAN//SHIFT is a story-driven 2D puzzle platformer about movement, environmental problem-solving, and community impact. Navigate city districts, bend orientation around edges, move boxes, collect gems, and clear routes through each puzzle chamber.
 
-CITY//SHIFT is a compact urban puzzle adventure focused on movement, environmental problem-solving, and community impact. Players navigate modular city districts, solve route-based challenges, and make decisions that affect the lives of the people around them. The project combines platforming, puzzle logic, dialogue, and atmospheric presentation into one narrative-driven experience.
+## Development
 
-The game includes systems for:
-- player movement and jumping
-- puzzle chamber progression
-- NPC dialogue and civic storytelling
-- multi-area city progression
-- pause, remapping, and UI flow
-- Steam integration support via the bundled addon
-
-## Features
-
-- Physics-based movement with precision platforming
-- District-by-district puzzle progression
-- Route and infrastructure-themed problem solving
-- Character dialogue and world-building in each area
-- Custom splash screen, menu flow, and HUD
-- Godot project structure ready for local development and export
-
-## Game details
-
-- Engine: Godot 3.6.1
+- Engine: Godot 3.6.1 (Godot 3; do not convert this project to Godot 4)
 - Language: GDScript
-- Project file: [project.godot](project.godot)
-- Main scene: [src/menu/Splash.tscn](src/menu/Splash.tscn)
-- Core player logic: [src/actor/Player.gd](src/actor/Player.gd)
+- Active project: `project.godot` in this directory
+- Main scene: `src/menu/Splash.tscn`
+- Filesystem-safe export name: `CLEAN_SHIFT`
 
-## Running the project
+Open this directory in Godot 3.6.1 and run the project with F5. Export presets are maintained in `export_presets.cfg`.
 
-1. Install Godot Engine 3.6.1.
-2. Open the root folder that contains [project.godot](project.godot).
-3. In Godot, press F5 or use the Run button to launch the game.
-4. If exporting, use the built-in export options from the project root.
+The `codeshift/` directory is an older archival project snapshot. It is not the current entry point and intentionally retains its historical files and branding for provenance. Do not export from that directory for a current CLEAN//SHIFT build.
 
 ## Controls
 
-The project uses standard Godot actions, including:
-
 - Move: A / D or Left / Right
-- Jump: W / Up / Space
-- Confirm / interact: Enter / Space / X
-- Pause / cancel: Esc / C
+- Jump / confirm: W / Up / Space / X (context dependent)
+- Grab, push, or pull: C
+- Zoom / cancel: Z or the configured cancel input
+- Restart room: R
+- Pause: Esc / Enter, depending on the active menu context
 
-Control remapping is available in the in-game options menu.
+Keyboard and controller actions can be remapped from Settings.
 
-## Project structure
+## Save and service compatibility
 
-- [src/](src/) — gameplay scripts, scenes, menus, maps, and systems
-- [media/](media/) - art, fonts, and audio assets
-- [addons/](addons/) — integration modules and extensions
-- [export/](export/) — export helpers and packaging scripts
-- [linux/](linux/) — Linux metadata and distribution files
-- [LICENSE](LICENSE) — project license
+Existing saves, settings, screenshots, and remapped controls continue to use Godot's `ROTA-Harmony` user-data directory. That internal compatibility identifier is intentionally unchanged so existing player data remains available.
 
-## License
+The bundled Steam addon is disabled by default because no verified CLEAN//SHIFT Steam app ID or store page is configured. Store buttons are hidden, achievement calls safely no-op, and standalone play does not require Steam. Configure a verified application explicitly before enabling the integration.
 
-This project is distributed under the [Unlicense](https://unlicense.org/). See [LICENSE](LICENSE) for the full text.
+The Android package identifier and Apple application identifier are also retained for install/update compatibility. Review ownership and signing configuration before producing a release build.
 
-> Note: the Steam integration code in [addons/steam_api/](addons/steam_api/) may have its own licensing or distribution requirements. Please review that folder before redistribution or commercial reuse.
+## License and credits
 
-## Credits
+The project is distributed under the MIT License in `LICENSE`, which remains authoritative.
 
-- Created by Sourya Poudel
-- Built with Godot Engine
-- Uses Steam API support included in the project bundle
+CLEAN//SHIFT is an adaptation by Ankuram of the original ROTA project by Harmony Honey Monroe. The original copyright and license notice are preserved. Contributor names displayed in the in-game credits are retained from the inherited project. The bundled Steam addon is separately MIT-licensed to Sam Murray; see `addons/steam_api/LICENSE`.
 
-## Notes
-
-This README reflects the actual project in this workspace: CITY//SHIFT. It replaces the outdated ROTA branding and presents the game in a clean, project-accurate format.
+Repository history and prior screens contain conflicting creator labels (including Sourya Poudel and Ankuram). This documentation does not erase those names or invent ownership: Ankuram is presented as the current adaptation credit, while Harmony Honey Monroe is credited for the original work as required by the project license.

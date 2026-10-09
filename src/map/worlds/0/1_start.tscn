@@ -50,7 +50,7 @@ dye = {
 hairstyle_back = 0
 hairstyle_front = 3
 is_npc = true
-lines = [ "Wake up, the city needs you.", "A small decision can protect a whole neighborhood.", "Welcome to CITY//SHIFT.", "Look around before you act.", "The safest route is not always the fastest.", "Listen for the people who need help.", "Every block connects to another.", "Your choices will change what happens next." ]
+lines = [ "Wake up, the city needs you.", "A small decision can protect a whole neighborhood.", "Welcome to CLEAN//SHIFT.", "Look around before you act.", "The safest route is not always the fastest.", "Listen for the people who need help.", "Every block connects to another.", "Your choices will change what happens next." ]
 greeting = 0
 queue_write = "1,2"
 
@@ -191,7 +191,7 @@ script = ExtResource( 12 )
 expression_string = "\"0/2_end\" in maps_visited"
 erase = "0"
 is_lines = 3
-lines = [ "I see you've met my friend!", "The worlds of ROTA are reunited! (:", "You have my eternal thanks.. <3", "Where are you off to next puzzler?", "For every gem, there is a clock.. (;" ]
+lines = [ "I see you've met my friend!", "The city is coming together! (:", "You have my eternal thanks.. <3", "Where are you off to next puzzler?", "For every gem, there is a clock.. (;" ]
 is_greeting = true
 greeting = 0
 is_queue = true
